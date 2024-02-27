@@ -171,14 +171,14 @@ The following schedule is tentative and subject to changes.
 
 ### Session 6. Deep-Learning-Based NLP: RNN and Seq2Seq (Feb/20/2024)
 - **Keywords**: Word2Vec: GloVe, Word Embedding and Language Model Evaluations, Word2Vec and RNN Applied to Business/Econ Research, RNN 
-- **Slides**: [NLP(III): Word2Vec](https://github.com/rphilipzhang/AI-PhD-S24/blob/main/Slides/AI-PhD-S2024-7-NLP(III).pdf), [NLP(IV): RNN & Seq2Seq](https://github.com/rphilipzhang/AI-PhD-S24/blob/main/Slides/AI-PhD-S2024-8-NLP(IV).pdf)
+- **Slides**: [Guest Lecture Announcement](https://github.com/rphilipzhang/AI-PhD-S24/blob/main/Slides/AI-PhD-S2024-7.5.pdf), [NLP(III): Word2Vec](https://github.com/rphilipzhang/AI-PhD-S24/blob/main/Slides/AI-PhD-S2024-7-NLP(III).pdf), [NLP(IV): RNN & Seq2Seq](https://github.com/rphilipzhang/AI-PhD-S24/blob/main/Slides/AI-PhD-S2024-8-NLP(IV).pdf)
 - **CoLab Notebook Demos**: [Word2Vec: CBOW](https://colab.research.google.com/drive/1RG35glSqj-xP0j2WgZNhTvJ7DEZ-LbmK), [Word2Vec: Skip-Gram](https://colab.research.google.com/drive/1kI4Czgwm0MVu6zcKhMar9GWidOntCdBR)
 - **Presentation**: By Qiyu Dai and Yifan Ren.
     - Huang, Allen H., Hui Wang, and Yi Yang. 2023. FinBERT: A large language model for extracting information from financial text. *Contemporary Accounting Research*, 40(2): 806-841. [Link to the paper](https://onlinelibrary.wiley.com/doi/full/10.1111/1911-3846.12832). [Link to GitHub Repo](https://github.com/yya518/FinBERT).
 - **Homework**: [Problem Set 4 - Word2Vec & LSTM for Sentiment Analysis](https://colab.research.google.com/drive/1shJ8uVv9OtJNQlu3SN8yt0PR7wXz1WCL#scrollTo=8X3Wh9B2GU4b)
 - **Scribed Lecture Notes**: *To be updated.*
 - **References**:
-    - Ash, Elliot, and Stephen Hansen. 2023. Text algorithms in economics. *Annual Review of Economics*, 15: 659-688.
+    - Ash, Elliot, and Stephen Hansen. 2023. Text algorithms in economics. *Annual Review of Economics*, 15: 659-688. [Associated GitHub with Code Demonstrations](https://github.com/sekhansen/text_algorithms_econ).
     - Li, Kai, Feng Mai, Rui Shen, and Xinyan Yan. 2021. Measuring corporate culture using machine learning. *Review of Financial Studies*, 34(7): 3265-3315.
     - Chen, Fanglin, Xiao Liu, Davide Proserpio, and Isamar Troncoso. 2022. Product2Vec: Leveraging representation learning to model consumer product choice in large assortments. *Available at SSRN 3519358*.
     - Pennington, Jeffrey, Richard Socher, and Christopher Manning. 2014. Glove: Global vectors for word representation. *Proceedings of the 2014 conference on empirical methods in natural language processing (EMNLP)* (pp. 1532-1543).
@@ -191,7 +191,7 @@ The following schedule is tentative and subject to changes.
 
 ### Session 7. Deep-Learning-Based NLP: Attention and Transformer (Feb/27/2024)
 - **Keywords**: RNN and its Applications to Business/Econ Research, LSTM, Seq2Seq, Attention Mechanism
-- **Slides**: [NLP(IV): RNN & Seq2Seq](https://github.com/rphilipzhang/AI-PhD-S24/blob/main/Slides/AI-PhD-S2024-8-NLP(IV).pdf), [NLP(V): Attention & Transformer](https://github.com/rphilipzhang/AI-PhD-S24/blob/main/Slides/AI-PhD-S2024-9-NLP(V).pdf)
+- **Slides**: [Final Project](https://github.com/rphilipzhang/AI-PhD-S24/blob/main/Slides/AI-PhD-S2024-8.5.pdf), [NLP(IV): RNN & Seq2Seq](https://github.com/rphilipzhang/AI-PhD-S24/blob/main/Slides/AI-PhD-S2024-8-NLP(IV).pdf), [NLP(V): Attention & Transformer](https://github.com/rphilipzhang/AI-PhD-S24/blob/main/Slides/AI-PhD-S2024-9-NLP(V).pdf)
 - **CoLab Notebook Demos**: [RNN & LSTM](https://colab.research.google.com/drive/1M5hLWQmPrIHDV5exjOpJKGmmGM_bvn4v#scrollTo=rQXYDGrsgRTd), [Attention Mechanism](https://colab.research.google.com/drive/1-kvLJoYZnKrfevOLBLec5-Ad-0qz8HH8#scrollTo=fTV9R7YjWCuK)
 - **Presentation**: By Qinghe Gui and Chaoyuan Jiang.
     - Zhang, Mengxia and Lan Luo. 2023. Can consumer-posted photos serve as a leading indicator of restaurant survival? Evidence from Yelp. *Management Science* 69(1): 25-50. [Link to the paper](https://pubsonline.informs.org/doi/full/10.1287/mnsc.2022.4359).
