@@ -67,8 +67,8 @@ All problem sets are due at 12:30pm right before class.
 ## Useful Resources
 Find more on the [Syllabus](https://github.com/rphilipzhang/AI-PhD-S24/blob/main/AI-PhD-Syllabus-S2024.pdf).
 
-- **Books**: [ESL](https://hastie.su.domains/ElemStatLearn/), [Deep Learning](https://www.deeplearningbook.org/), [Dive into Deep Learning](https://d2l.ai/), [ML Fairness](https://fairmlbook.org/)
-- **Courses**: [ML Intro by Andrew Ng](https://www.coursera.org/specializations/machine-learning-introduction), [DL Intro by Andrew Ng](https://www.coursera.org/specializations/deep-learning), [NLP (CS224N) by Chris Manning](https://web.stanford.edu/class/cs224n/), [CV (CS231N) by Fei-Fei Li](http://cs231n.stanford.edu/), [DLR by Sergey Levine](https://rail.eecs.berkeley.edu/deeprlcourse/), [DL Theory by Matus Telgarsky](https://mjt.cs.illinois.edu/courses/dlt-f22/), [LLM by Danqi Chen](https://www.cs.princeton.edu/courses/archive/fall22/cos597G/), [Generative AI by Andrew Ng](https://www.deeplearning.ai/short-courses/), [Machine Learning and Big Data by Melissa Dell and Matthew Harding](https://www.aeaweb.org/conference/cont-ed/2023-webcasts), [Digital Economics and the Economics of AI by Martin Beraja, Chiara Farronato, Avi Goldfarb, and Catherine Tucker](https://www.aeaweb.org/content/file?id=19707)
+- **Books**: [ESL](https://hastie.su.domains/ElemStatLearn/), [Deep Learning](https://www.deeplearningbook.org/), [Dive into Deep Learning](https://d2l.ai/), [ML Fairness](https://fairmlbook.org/), [Applied Causal Inference Powered by ML and AI](https://causalml-book.org/)
+- **Courses**: [ML Intro by Andrew Ng](https://www.coursera.org/specializations/machine-learning-introduction), [DL Intro by Andrew Ng](https://www.coursera.org/specializations/deep-learning), [NLP (CS224N) by Chris Manning](https://web.stanford.edu/class/cs224n/), [CV (CS231N) by Fei-Fei Li](http://cs231n.stanford.edu/), [Deep Unsupervised Learning by Pieter Abbeel](https://sites.google.com/view/berkeley-cs294-158-sp24/home), [DLR by Sergey Levine](https://rail.eecs.berkeley.edu/deeprlcourse/), [DL Theory by Matus Telgarsky](https://mjt.cs.illinois.edu/courses/dlt-f22/), [LLM by Danqi Chen](https://www.cs.princeton.edu/courses/archive/fall22/cos597G/), [Generative AI by Andrew Ng](https://www.deeplearning.ai/short-courses/), [Machine Learning and Big Data by Melissa Dell and Matthew Harding](https://www.aeaweb.org/conference/cont-ed/2023-webcasts), [Digital Economics and the Economics of AI by Martin Beraja, Chiara Farronato, Avi Goldfarb, and Catherine Tucker](https://www.aeaweb.org/content/file?id=19707)
 
 
 ## Detailed Schedule
@@ -90,6 +90,7 @@ The following schedule is tentative and subject to changes.
     - Hofman, Jake M., et al. 2021. Integrating explanation and prediction in computational social science. *Nature* 595.7866: 181-188.
     - Bastani, Hamsa, Dennis Zhang, and Heng Zhang. 2022. Applied machine learning in operations management. *Innovative Technology at the Interface of Finance and Operations*. Springer: 189-222.
     - Kelly, Brian, and Dacheng Xiu. 2023. Financial machine learning, *SSRN*, https://ssrn.com/abstract=4501707.   
+    - [The Bitter Lesson](http://www.incompleteideas.net/IncIdeas/BitterLesson.html), by Rich Sutton, which develops so far the most critical insight of AI: "The biggest lesson that can be read from 70 years of AI research is that general methods that leverage computation are ultimately the most effective, and by a large margin."
 
 ### Session 2. Introduction to Deep Learning (Jan/16/2024)
 - **Keywords**: Random Forests, eXtreme Gradient Boosting Trees, Deep Learning Basics, Neural Nets Models, Computational Issues of Deep Learning
@@ -211,3 +212,39 @@ The following schedule is tentative and subject to changes.
     - [PyTorch's Tutorial of Seq2Seq for Machine Translation](https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html)
     - [Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
     - [Transformer from Scratch](https://peterbloem.nl/blog/transformers), with the [Code on GitHub](https://github.com/pbloem/former)
+    - [Hand Written Notes](https://github.com/rphilipzhang/AI-PhD-S24/blob/main/Notes/240227.pdf)
+
+
+### Session 7.5. Deep-Learning-Based NLP: Attention is All You Need (Mar/05/2024)
+- **Keywords**: Bitter Lesson: Power of Computation in AI, Attention Mechanism, Transformer
+- **Slides**: [The Bitter Lesson](https://github.com/rphilipzhang/AI-PhD-S24/blob/main/Slides/AI-PhD-S2024-9.5.pdf), [NLP(V): Attention & Transformer](https://github.com/rphilipzhang/AI-PhD-S24/blob/main/Slides/AI-PhD-S2024-9-NLP(V).pdf)
+- **CoLab Notebook Demos**: [Attention Mechanism](https://colab.research.google.com/drive/1-kvLJoYZnKrfevOLBLec5-Ad-0qz8HH8#scrollTo=fTV9R7YjWCuK), [Transformer](https://colab.research.google.com/drive/1tVjNhKmuRrf_psJppRGWijXijmW-AJ0N#scrollTo=YDUaxWhtvB5R)
+- **Homework**: [One-page Proposal for Your Final Project](https://github.com/rphilipzhang/AI-PhD-S24/blob/main/Slides/AI-PhD-S2024-8.5.pdf)
+- **References**:
+    - [The Bitter Lesson, by Rich Sutton](http://www.incompleteideas.net/IncIdeas/BitterLesson.html)
+    - Bahdanau, Dzmitry, Kyunghyun Cho, and Yoshua Bengio. 2015. Neural machine translation by jointly learning to align and translate. *ICLR*
+    - Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., ... and Polosukhin, I. (2017). Attention is all you need. *Advances in neural information processing systems*, 30.
+    - Part 8, Lecture Notes and Slides for CS224n: Natural Language Processing with Deep Learning, by Christopher D. Manning, Diyi Yang, and Tatsunori Hashimoto, https://web.stanford.edu/class/cs224n/.
+    - Chapter 11, *Dive into Deep Learning* (2nd Edition), 2023, by Aston Zhang, Zack Lipton, Mu Li, and Alex J. Smola, https://d2l.ai/.
+    - [Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
+    - [Transformer from Scratch](https://peterbloem.nl/blog/transformers), with the [Code on GitHub](https://github.com/pbloem/former)
+    - [Hand Written Notes](https://github.com/rphilipzhang/AI-PhD-S24/blob/main/Notes/240305.pdf)
+
+
+### Session 8. Deep-Learning-Based NLP: Pretraining (Mar/12/2024)
+- **Keywords**: Computations in AI, BERT (Bidirectional Encoder Representations from Transformers), GPT (Generative Pretrained Transformers)
+- **Slides**: [Guest Lecture by Dr. Liubo Li on Deep Learning Computation](https://docs.google.com/presentation/d/1RlloczzRGrHOZqV_KBYVxYy7aljx4nN8BIEbx1KBWKE/edit?invite=CPjxzs8B#slide=id.g2c123b2306c_0_358), [Pretraining](https://github.com/rphilipzhang/AI-PhD-S24/blob/main/Slides/AI-PhD-S2024-10-NLP(VI).pdf)
+- **CoLab Notebook Demos**: [Crafting Intelligence: The Art of Deep Learning Modeling](https://colab.research.google.com/drive/1FoFSjfGiCiAXJCCogIE5f12FrN-k9nLh), [BERT API @ Hugging Face](https://colab.research.google.com/drive/1Scfw58qaR1Wp8OvBqE6mWb55Jj2FhMM_)
+- **Presentation**: By Zhankun Chen and Yiyi Zhao.
+    - Noy, Shakked and Whitney Zhang. 2023. Experimental evidence on the productivity effects of generative artificial intelligence. *Science*, 381: 187-192. [Link to the Paper](https://www.science.org/doi/pdf/10.1126/science.adh2586)
+- **Homework**: [Problem Set 5 - Sentiment Analysis with Hugging Face](https://colab.research.google.com/drive/19rMnrzi27CbyA0V2zbxFjizXRagdWVnA), due at 12:30pm, March 26, Tuesday.
+- **References**:
+    - Devlin, Jacob, Ming-Wei Chang, Kenton Lee, Kristina Toutanova. 2018. BERT: Pre-training of deep bidirectional transformers for language understanding. *ArXiv preprint* arXiv:1810.04805. [GitHub Repo](https://github.com/google-research/bert)
+    - Radford, Alec, Karthik Narasimhan, Tim Salimans, and Ilya Sutskever. 2018. Improving language understanding by generative pre-training, (GPT-1) [PDF link](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf), [GitHub Repo](https://github.com/openai/finetune-transformer-lm)
+    - Radford, Alec, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, Ilya Sutskever. 2019. Language models are unsupervised multitask learners. OpenAI blog, 1(8), 9. (GPT-2) [PDF Link](https://insightcivic.s3.us-east-1.amazonaws.com/language-models.pdf), [GitHub Repo](https://github.com/openai/gpt-2)
+    - Brown, Tom, et al. 2020. Language models are few-shot learners. *Advances in neural information processing systems*, 33, 1877-1901. (GPT-3) [GitHub Repo](https://github.com/openai/gpt-3)
+    - Huang, Allen H., Hui Wang, and Yi Yang. 2023. FinBERT: A large language model for extracting information from financial text. *Contemporary Accounting Research*, 40(2): 806-841. [GitHub Repo](https://github.com/yya518/FinBERT)
+    - Part 9, Lecture Notes and Slides for CS 224N: Natural Language Processing with Deep Learning, by Christopher D. Manning, Diyi Yang, and Tatsunori Hashimoto. [Link to CS 224N](https://web.stanford.edu/class/cs224n/)
+    - Part 2 & 4, Slides for COS 597G: Understanding Large Language Models, by Danqi Chen. [Link to COS 597G](https://www.cs.princeton.edu/courses/archive/fall22/cos597G/)
+    - [A Visual Guide to BERT](https://jalammar.github.io/a-visual-guide-to-using-bert-for-the-first-time/), [How GPT-3 Works](https://jalammar.github.io/how-gpt3-works-visualizations-animations/)
+    - [Hand Written Notes](https://github.com/rphilipzhang/AI-PhD-S24/blob/main/Notes/240312.pdf)
